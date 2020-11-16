@@ -1,8 +1,8 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-  </div>
   <NavBar> </NavBar>
+  <div class="about">
+    <h1>This is an about page</h1>
+  </div>
 </template>
 
 <script lang="ts">
@@ -14,5 +14,5 @@ import NavBar from '@/components/NavBar.vue'; // @ is an alias to /src
     NavBar,
   },
 })
-export default class Home extends Vue {}
+export default class Blog extends Vue {}
 </script>
