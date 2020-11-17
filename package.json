@@ -12,6 +12,7 @@
     "@types/pdfjs-dist": "^2.1.6",
     "core-js": "^3.6.5",
     "vue": "^3.0.0",
+    "vue-custom-scrollbar": "^1.4.0",
     "vue-pdf": "^4.2.0",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"
