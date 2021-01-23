@@ -1,6 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { MarkdownModule } from 'ngx-markdown';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -14,10 +17,16 @@ import { BlogComponent } from './blog/blog.component';
     HeaderComponent,
     BlogComponent
   ],
+  
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    MarkdownModule.forRoot({
+      loader: HttpClient,
+    }),  
   ],
+
   providers: [],
   bootstrap: [AppComponent]
 })
