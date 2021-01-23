@@ -125,10 +125,7 @@
         },
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
-          "options": {
-            "name": "Lukas Zierahn",
-            "email": "lukas@kappa-mm.de"
-          }
+          "options": {}
         }
       }
     }
