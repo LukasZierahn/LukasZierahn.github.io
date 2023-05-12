@@ -17,6 +17,6 @@ social: true  # includes social icons at the bottom of the page
 
 I'm part of the [Italian National PhD program in AI](https://www.phd-ai.it/en/359-2/) supervised by [Nicolò Cesa-Bianchi](https://cesa-bianchi.di.unimi.it/) and [Gergely Neu](http://cs.bme.hu/~gergo/). My program started in November 2021 and I'm expect to finish in November of 2024. 
 
-My background consists of an MSc in "Data Science and Machine Learning" from [UCL](https://www.ucl.ac.uk/), finished in 2021 with Distinction and an BSc in "Mathematics" from [Lancaster University](https://www.lancaster.ac.uk/), finished in 2020 with First-Class Honours.
+I graduated with an MSc in "Data Science and Machine Learning" from [UCL](https://www.ucl.ac.uk/) with Distinction in 2021 and an BSC in "Mathematics" from [Lancaster University](https://www.lancaster.ac.uk/) with First-Class Honours in 2020.
 
-In my free time I enjoy playing Guitar and [Chess](https://lichess.org/@/YasoKuhl).
+In my free time I enjoy playing guitar and [chess](https://lichess.org/@/YasoKuhl).
