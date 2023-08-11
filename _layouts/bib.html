@@ -65,7 +65,11 @@
             <em>{{author.first}} {{author.last}}</em>
           {%- else -%}
             {%- if coauthor_url -%}
-              <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
+              {%- if author_last_name == 'Hoeven' -%}
+                <a href="{{coauthor_url}}">{{author.first}} van der {{author.last}}</a>
+              {%- else -%}
+                <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
+              {%- endif -%}
             {%- else -%}
               {{author.first}} {{author.last}}
             {%- endif -%}

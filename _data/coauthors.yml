@@ -7,5 +7,13 @@
     url: http://cs.bme.hu/~gergo/
 
 "Hoeven":
-  - firstname: ["Dirk", "van", "der"]
+  - firstname: ["Dirk"]
     url: http://dirkvanderhoeven.com/about
+
+"Lancewicki":
+  - firstname: ["Tal"]
+    url: https://sites.google.com/view/lancewicki/
+
+"Rosenberg":
+  - firstname: ["Aviv"]
+    url: https://sites.google.com/view/aviv-rosenberg/home
