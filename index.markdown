@@ -3,7 +3,7 @@ title: About Me
 layout: default
 ---
 
-<img style="float: right; width: 300px; border-radius: 50%; margin-left: 20px;" src="./assets/img/profile_cut.jpg">
+<img style="float: right; width: 300px; border-radius: 50%; margin-left: 20px;" src="main/assets/img/profile_cut.jpg">
 
 <div markdown="1">
 Postdoc with [CWI](https://www.cwi.nl/en/) and [Booking.com](https://www.booking.com/) working with [Prof. Wouter Koolen](https://wouterkoolen.info/) and [Dr. Christina Katsimerou](https://www.linkedin.com/in/christinakatsimerou) on Best-Arm Identification.
