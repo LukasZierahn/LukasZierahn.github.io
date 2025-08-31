@@ -6,16 +6,13 @@ layout: default
 <img style="float: right; width: 300px; border-radius: 50%; margin-left: 20px;" src="/assets/img/profile_cut.jpg">
 
 <div markdown="1">
-Hello! I'm Lukas Zierahn, an academic with research interests in Economics, specifically in labour economics, education, and inequality.
+Postdoc with [CWI](https://www.cwi.nl/en/) and [Booking.com](https://www.booking.com/) working with [Prof. Wouter Koolen](https://wouterkoolen.info/) and [Dr. Christina Katsimerou](https://www.linkedin.com/in/christinakatsimerou) on Best-Arm Identification.
 
+I finished my PhD as part of the ELLIS program supervised by [Nicolò Cesa-Bianchi](https://cesa-bianchi.di.unimi.it/) and [Gergely Neu](https://cs.bme.hu/~gergo/) working on adversarial bandits and am expected to defend my thesis in October 2024. 
 
-I am currently a [Your Current Position] at [Your Institution]. My research focuses on [briefly describe your research focus].
+Before that, I graduated with an MSc in “Data Science and Machine Learning” from [UCL](https://www.ucl.ac.uk/) with Distinction in 2021 and an BSC in “Mathematics” from [Lancaster University](https://www.lancaster.ac.uk/) with First-Class Honours in 2020.
 
-## Research Interests
-
-*   Labour Economics
-*   Economics of Education
-*   Inequality
+In my free time I enjoy playing guitar and [chess](https://lichess.org/@/YasoKuhl).
 
 ## Selected Publications
 
