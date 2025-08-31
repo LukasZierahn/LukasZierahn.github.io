@@ -14,6 +14,8 @@ Before that, I graduated with an MSc in “Data Science and Machine Learning” 
 
 In my free time I enjoy playing guitar and [chess](https://lichess.org/@/YasoKuhl).
 
+<br/><br/>
+
 ## Selected Publications
 
 *   **Zierahn, L.**, van der Hoeven, D., Lancewicki, T., Rosenberg, A., & Cesa-Bianchi, N. (2025). **A Unified Analysis of Nonstochastic Delayed Feedback for Combinatorial Semi-Bandits, Linear Bandits, and MDPs.** *Journal of Machine Learning Research*, 26(104), 1-60. [http://jmlr.org/papers/v26/24-0496.html](http://jmlr.org/papers/v26/24-0496.html)
