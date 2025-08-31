@@ -1,7 +1,37 @@
 ---
 ---
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+@import "minima";
 
-@import "{{ site.theme }}";
-.site-title {font-size: 50px;}
-.site-header {border: none;}
-.site-footer {display: none;}
+// Custom styles below
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+.post-content {
+  font-size: 1.1em;
+}
+
+.publication {
+  margin-bottom: 1em;
+}
+
+.publication a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.publication a:hover {
+  text-decoration: underline;
+}
+
+.social-media-list li {
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 10px;
+}
