@@ -22,15 +22,18 @@ title: Lukas Zierahn
 email: lukas.zierahn@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Personal website of Lukas Zierahn.
-baseurl: "" # the subpath of your site, e.g. /
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+baseurl: "/" # the subpath of your site, e.g. /
+url: "https://lukaszierahn.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  LukasZierahn
+linkedin_username: lukas-zierahn-3b0a2a174
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+
+sass:
+  sass_dir: assets/css
 
 # Exclude from processing.
 # The following items will not be processed, by default.

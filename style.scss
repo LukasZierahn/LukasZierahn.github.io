@@ -1,0 +1,32 @@
+---
+---
+
+@import "minima";
+
+// Custom styles below
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+.post-content {
+  font-size: 1.1em;
+}
+
+.publication {
+  margin-bottom: 1em;
+}
+
+.publication a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.publication a:hover {
+  text-decoration: underline;
+}
