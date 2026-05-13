@@ -1,119 +1,112 @@
 ---
 ---
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
 @import "minima";
 
-// Custom styles below
 body {
-  font-family: 'Arial', sans-serif;
-  line-height: 1.6;
-  padding-bottom: 60px;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.7;
+  background-color: #fafaf9;
+  color: #1a1a1a;
+  padding-bottom: 0;
 }
 
 h1, h2, h3 {
-  color: #333;
+  color: #111;
+  font-weight: 600;
 }
 
-.post-content {
-  font-size: 1.1em;
-}
-
-.publication {
-  margin-bottom: 1em;
-}
-
-.publication a {
-  color: #007bff;
+a {
+  color: #2563eb;
   text-decoration: none;
+  transition: color 0.2s ease;
 }
 
-.publication a:hover {
+a:hover {
+  color: #1d4ed8;
   text-decoration: underline;
 }
 
-.social-media-list li {
-  display: inline-block;
-  font-size: 20px;
-  margin-right: 10px;
+.wrapper {
+  max-width: 880px;
 }
 
-/* Header Styles */
-.site-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  background-color: #fff;
-  border-bottom: 1px solid #eaeaea;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-}
-
-/* Site Branding (Logo/Name) */
-.site-branding a {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-/* Main Navigation Links */
-.main-navigation ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  gap: 2rem; /* Adjust spacing between links */
-}
-
-.main-navigation a {
-  color: #555;
-  font-weight: 500;
-  padding-bottom: 5px;
-  position: relative;
-  transition: color 0.3s ease;
-}
-
-.main-navigation a::after {
-  content: '';
-  position: absolute;
-  width: 0;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #007bff;
-  transition: width 0.3s ease-in-out;
-}
-
-.main-navigation a:hover {
-  color: #007bff;
-}
-
-.main-navigation a:hover::after {
-  width: 100%;
-}
-
-/* Intro header */
+// Intro section — flex layout
 .intro-header {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .intro-name {
-  font-size: 2.5rem;
-  margin-bottom: 0.25rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+  letter-spacing: -0.5px;
 }
 
+.intro-details {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.intro-details a {
+  color: #2563eb;
+}
+
+.intro-email {
+  margin: 0.4rem 0 0 0;
+  font-size: 1.05rem;
+}
+
+.intro-email a {
+  color: #333;
+  font-weight: 500;
+}
+
+.intro-email a:hover {
+  text-decoration: underline;
+}
+
+.intro-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 2.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.intro-text {
+  flex: 1;
+  font-size: 1.05rem;
+}
+
+.intro-text p {
+  margin-bottom: 1rem;
+}
+
+.profile-photo {
+  width: 320px;
+  min-width: 320px;
+  border-radius: 50%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  margin-top: 0.5rem;
+}
+
+// Floating name bar
 .floating-name {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   padding: 0.75rem 2rem;
-  background-color: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(10px);
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #2c3e50;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  background-color: rgba(250, 250, 249, 0.92);
+  backdrop-filter: blur(12px);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #111;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.04);
   z-index: 100;
   opacity: 0;
   transform: translateY(-100%);
@@ -127,44 +120,90 @@ h1, h2, h3 {
   pointer-events: auto;
 }
 
-.intro-details {
-  margin: 0.1rem 0;
-  font-size: 1.1rem;
+// Publications — full width, outside the flex intro
+.publications {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e5e5e5;
+}
+
+.publications h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.publications ul {
+  list-style: none;
+  padding: 0;
+}
+
+.publications ul li {
+  margin-bottom: 1.5rem;
+  padding-left: 0;
+  line-height: 1.7;
+  font-size: 1.05rem;
+}
+
+// Header
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fafaf9;
+  border-bottom: 1px solid #e5e5e5;
+  box-shadow: none;
+}
+
+.site-branding a {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #111;
+}
+
+// Navigation
+.main-navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.main-navigation a {
   color: #555;
+  font-weight: 500;
+  padding-bottom: 5px;
+  position: relative;
+  transition: color 0.2s ease;
 }
 
-.intro-details a {
-  color: #007bff;
-  text-decoration: none;
-}
-
-.intro-details a:hover {
-  text-decoration: underline;
-}
-
-/* Mobile layout */
-@media (max-width: 600px) {
-  .site-header {
-    padding: 1rem;
-  }
-
-  .page-content img[style*="float"] {
-    float: none !important;
-    display: block;
-    margin: 0 auto 1.5rem auto !important;
-    width: 200px !important;
-  }
-}
-
-.site-footer {
-  position: fixed;
+.main-navigation a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
   bottom: 0;
   left: 0;
+  background-color: #2563eb;
+  transition: width 0.3s ease-in-out;
+}
+
+.main-navigation a:hover {
+  color: #2563eb;
+}
+
+.main-navigation a:hover::after {
   width: 100%;
-  padding: 12px;
+}
+
+// Footer — normal flow, not fixed
+.site-footer {
+  position: static;
+  margin-top: 4rem;
+  padding: 1.5rem 0;
   background-color: #fff;
-  border-top: 1px solid #eaeaea;
-  z-index: 100;
+  border-top: 1px solid #e5e5e5;
 }
 
 .site-footer .footer-content {
@@ -183,8 +222,14 @@ h1, h2, h3 {
   text-decoration: underline;
 }
 
+.social-media-list li {
+  display: inline-block;
+  font-size: 18px;
+  margin-right: 12px;
+}
+
 .site-footer .social-media-list a {
-  color: #007bff;
+  color: #2563eb;
   text-decoration: none;
 }
 
@@ -193,5 +238,38 @@ h1, h2, h3 {
 }
 
 .footer-col {
-  margin-bottom: 0px;
+  margin-bottom: 0;
+}
+
+// Mobile layout
+@media (max-width: 700px) {
+  .intro-section {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .profile-photo {
+    width: 180px;
+    min-width: 180px;
+  }
+
+  .intro-name {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .intro-details {
+    text-align: center;
+  }
+
+  .intro-header {
+    text-align: center;
+  }
+
+  .site-footer .footer-content {
+    flex-direction: column;
+    gap: 0.75rem;
+    text-align: center;
+  }
 }
