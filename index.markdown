@@ -7,7 +7,7 @@ layout: default
 
 <div class="intro-header">
   <h1 class="intro-name">Lukas Zierahn</h1>
-  <p class="intro-details">Postdoc at <a href="https://www.cwi.nl/en/">CWI</a> & <a href="https://www.booking.com/">Booking.com</a> · <a href="mailto:lukas.zierahn@gmail.com"><i class="fas fa-envelope"></i> lukas.zierahn@gmail.com</a></p>
+  <p class="intro-details">they/them · Postdoc at <a href="https://www.cwi.nl/en/">CWI</a> & <a href="https://www.booking.com/">Booking.com</a> · <a href="mailto:lukas.zierahn@gmail.com"><i class="fas fa-envelope"></i> lukas.zierahn@gmail.com</a></p>
 </div>
 
 <div class="intro-section">
@@ -18,7 +18,7 @@ My research interest include Bandits and Reinforcement Learning, both for regret
 
 <!-- Before that, I graduated with an MSc in "Data Science and Machine Learning" from [UCL](https://www.ucl.ac.uk/) with Distinction in 2021 and an BSc in "Mathematics" from [Lancaster University](https://www.lancaster.ac.uk/) with First-Class Honours in 2020. -->
 
-In my free time I enjoy playing guitar and [chess](https://lichess.org/@/YasoKuhl).
+I am nonbinary <a class="nb-flag" href="https://en.wikipedia.org/wiki/Non-binary_gender" target="_blank" rel="noopener" title="Nonbinary pride flag" aria-label="Nonbinary pride flag, links to Wikipedia article on nonbinary gender"></a> and go by they/them pronouns. In my free time I enjoy playing guitar and [chess](https://lichess.org/@/YasoKuhl).
 
   </div>
   <img class="profile-photo" src="/assets/img/profile_cut.JPG" alt="Lukas Zierahn">
